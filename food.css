@@ -1,0 +1,188 @@
+.website-background{
+    background-color:bisque;
+}
+.nav-image{
+    height:100px;
+    width: 100px;
+}
+.nav-background{
+    background-color: bisque;
+}
+.horizontal-line{
+    background-color:#4d9969;
+    height:1.4px;
+    width:100%;
+}
+.nav-elements{
+    color:#26683f;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    
+}
+.nav-heading{
+    color:#26683f;
+    font-family: 'Times new roman';
+    font-size:xxx-large;   
+}
+.margin{
+    padding-left:15px;
+    padding-bottom:10px
+}
+.maincover-heading{
+    color:#2e804d;
+    font-family: 'Roboto';
+    font-weight:bolder;
+    font-size:80px;
+}
+.maincover-description{
+    color:#2e814d;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 30px;
+}
+.image{
+    height:100%;
+    width:100%;
+    background-color: transparent;
+    mix-blend-mode: multiply; 
+    
+}
+.background-2{
+    background-color: azure;
+    height:200vh;
+
+}
+.heading-2{
+    color:#03692a;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:45px;  
+}
+.para-2{
+    color:#03692a;
+    font-family:initial;
+    font-size:32px;  
+}
+.icon{
+    color:green;
+    font-size:20px;
+}
+.accepting-orders{
+    font-family:serif;
+    color:#03692a;
+    font-weight:bold;
+    font-size:x-large;
+}
+.delivery-button{
+    height:40px;
+    width:130px;
+    border-width:1px;
+    border-color:#03692a;
+    background-color:transparent;
+    color:#11552b;
+    font-family:'roboto';
+}
+.modal-title-1{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight:normal;
+    font-size:medium;
+}
+.modal-body-1{
+    color:black;
+    font-family:'Roboto';
+    font-weight:normal;
+    font-size:medium;
+}
+.radio-container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .radio-container input {
+    display: none; /* Hide default radio button */
+  }
+  
+  .custom-radio {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+  }
+  
+  .radio-container input:checked + .custom-radio::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .padding-1{
+    padding-left:20px;
+  }
+  .pickup-time{
+    color:#2e5a3f;
+    font-family:'Roboto';
+    font-size:20px;
+    padding-left:10px;
+    padding-bottom:10px;
+  }
+  .menu{
+    color:#2e5a3f;
+    font-family:'Times New Roman', Times, serif;
+    font-size:35px;
+    text-decoration: underline;
+  }
+  .menu-para{
+    color:#21673c;
+    font-family:'Roboto';
+    font-size:20px;
+  }
+  .food-items{
+    color:#000000;
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+   font-style:italic;
+  }
+  .food-items-para{
+    color:#067831;
+    font-family:'Roboto';
+    font-size:20px;
+  }
+  .item-box{
+    width: 70vw;
+    height:70vh;
+    background-color:azure;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+  }
+  .food-image{
+    height:200px;
+    width:200px;
+  }
+  .about-us{
+    color:#2e814d;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 30px;
+  }
+  .about-us-description{
+    color:#2e814d;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:normal;
+    font-size: 25px;
+  }
+  
